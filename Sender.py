@@ -34,6 +34,7 @@ while(1):
 
     if(verified == False):
         print("\nPublic key is not veified!\n")
+        continue
 
     print("\nPublic key is verified successfully! It is recieved from the Certificate Authority.")
 
